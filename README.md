@@ -21,7 +21,8 @@ CALLBACK(response) defines what to do when the call was successfull and you got 
 FAILSAFE(response) defines what to do when the call was unsucessfull.
 
 Example Code:
-```var API = new MyAPI("./API/API.php","GET","call" {
+```
+var API = new MyAPI("./API/API.php","GET","call" {
   get: (where,is,callback,failsafe) => {
     myAPI.fetch({
       call: "get",
